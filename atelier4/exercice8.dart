@@ -32,3 +32,9 @@ void main() {
 
   Livre.afficherTotalLivres();
 }
+class Roman extends Livre {
+  String genre;
+
+  Roman(String titre, String auteur, int pages, this.genre)
+      : super(titre, auteur, pages);
+}
