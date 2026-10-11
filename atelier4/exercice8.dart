@@ -31,10 +31,18 @@ void main() {
   print("Pages: ${livre1.pages}");
 
   Livre.afficherTotalLivres();
+  var roman1 = Roman(
+  "Les Misérables",
+  "Victor Hugo",
+  1200,
+  "Historique",
+);
+
+roman1.afficherInfos();
 }
 class Roman extends Livre {
   String genre;
 
   Roman(String titre, String auteur, int pages, this.genre)
-      : super(titre, auteur, pages);
+      : super(titre, auteur, pages); 
 }
