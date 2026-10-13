@@ -14,4 +14,7 @@ class Point {
     _y = _y + dy;
   }
 } 
+void display() {
+  print("($_x, $_y)");
+}
 }
