@@ -8,3 +8,11 @@ class Tache {
   }
 
 }
+
+void main() {
+  Tache("Faire les devoirs");
+  Tache("Réviser le cours");
+  Tache("Préparer l'examen");
+
+  print(Tache.nombreTotal);
+}
