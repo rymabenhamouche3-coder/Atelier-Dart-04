@@ -27,6 +27,18 @@ static void afficherTotalLivres() {
 }
 
   }
+  
+class Roman extends Livre {
+  String genre;
+
+  Roman(String titre, String auteur, this.genre)
+      : super(titre, auteur);
+
+  void afficherGenre() {
+    print("Genre: $genre");
+  }
+}
+
 
 
 void main() {
