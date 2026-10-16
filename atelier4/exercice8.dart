@@ -51,4 +51,14 @@ void main() {
 print(livre1.pages);
 
 Livre.afficherTotalLivres();
+
+var roman1 = Roman("Les Jours", "Taha Hussein", "Autobiographique");
+var roman2 = Roman("La Trilogie de Grenade", "Radwa Achour", "Historique");
+
+roman1.afficherInfos();
+roman1.afficherGenre();
+
+roman2.afficherInfos();
+roman2.afficherGenre();
+
 }
