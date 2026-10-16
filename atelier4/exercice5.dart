@@ -30,3 +30,15 @@ class Rectangle extends Forme {
   }
 }
 
+void main() {
+  List<Forme> formes = [
+    Cercle(3),
+    Rectangle(4, 5),
+  ];
+
+  for (var forme in formes) {
+    forme.afficherMessage();
+    print(forme.calculerAire());
+  }
+}
+
